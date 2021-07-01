@@ -3,7 +3,7 @@ const ingrediente1= prompt('Primero, ingrese un ingrediente','tomate');
 const ingrediente2= prompt('Muy bien! Ahora ingrese el segundo ingrediente','lechuga');
 const ingrediente3= prompt('Solo nos falta el tercer ingrediente','zanahoria');
 
-if(ingrediente1 == undefined || ingrediente2 == undefined || ingrediente3 == undefined){
+if(ingrediente1 == '' || ingrediente2 == '' || ingrediente3 == '' ){
 alert('que pasó?! Debian ser tres ingredientes :(')
 }else{
 document.write(`
