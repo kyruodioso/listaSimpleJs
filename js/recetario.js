@@ -1,0 +1,12 @@
+alert('Bienvenido! Empiece a crear su ensalada!')
+const ingrediente1= prompt('Primero, ingrese un ingrediente');
+const ingrediente2= prompt('Muy bien! Ahora ingrese el segundo ingrediente');
+const ingrediente3= prompt('Solo nos falta el tercer ingrediente');
+
+document.write(`
+<h2>Su ensalada lleva los siguientes ingredientes:</h2>
+<ul class="listaIngredientes">
+<li>${ingrediente1}</li>
+<li>${ingrediente2}</li>
+<li>${ingrediente3}</li>
+</ul>`)
